@@ -20,15 +20,8 @@ body {
     display: block;
     margin-bottom: 20px;
     text-decoration: none;
-    color:#2D6A4F;
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 9px;
-    cursor: pointer;
-}
-#back-button:hover{
-    background-color: #45a049;
+    color: #2D6A4F;
+    
 }
 
 .code-inputs input {
@@ -37,8 +30,7 @@ body {
     margin: 0 5px;
     text-align: center;
     font-size: 18px;
-    border-radius: 9px;
-
+    
 }
 
 #continue-button {
@@ -47,7 +39,7 @@ body {
     background-color: #2D6A4F;
     color: white;
     border: none;
-    border-radius: 9px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
