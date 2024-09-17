@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    border-radius: 6px;
+}
+
+h2, h3 {
+    color: #333;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"], input[type="password"], .code-inputs input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 3px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #379e70;
+}
+
+
+.code-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+
+}
+
+.code-inputs input[type="text"] {
+    width: 15%;
+    text-align: center;
+}
+
+.back-button, .icon {
+    background: none;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img, .icon img {
+    margin-right: 5px;
+}
+.seta{
+    font-size: 10px;
+}
