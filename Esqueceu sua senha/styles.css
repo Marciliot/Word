@@ -29,6 +29,9 @@ li {
     margin: 10px 0;
     font-size: 14px;
 }
+label{
+    font-size: 14px;
+}
 
 form {
     margin-top: 20px;
