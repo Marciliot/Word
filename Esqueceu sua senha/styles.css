@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    font-size: 12px;
+}
+
+h3, p {
+    color: #666;
+    color: #666;
+    display: contents;
+    font-size: 14px;
+}
+
+ol, ul {
+    display: contents;
+    padding-left: 20px;
+    font-size: 13px;
+
+}
+
+li {
+    display: block;
+    margin: 10px 0;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-flex;
+    width: 27%;
+    padding: 16px;
+    background-color: #2D6A4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.code-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-inputs input {
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.seta{
+    font-size: 12px;
+
+}
+
